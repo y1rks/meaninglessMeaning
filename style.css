@@ -1,10 +1,9 @@
 /* Header */
 .header {
 	display: flex;
-	width: 1000px;
-	height: 80px;
-	border-style: solid;
-	border-color: black;
+	width: 650px;
+	height: 60px;
+	border: 1px solid #555;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
@@ -13,22 +12,50 @@
 	/* top: 150px; */
 	/* left: 100px; */
 }
+.header__items {
+	list-style :none;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+}
 .header__item {
-	display: inline-block;
+	width: 150px;
+}
+.header__link {
+	font-size: 18px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #555;
+}
+
+/* Display */
+.display {
+	background-color: black;
+	width: 400px;
+	height: 45px;
+	color: green;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display__text {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 /* Line */
 .line {
-	width: 1000px;
+	width: 800px;
 	height: 2px;
-	background-color: black;
+	background-color: #555;
 }
 
 /* Square */
 .square {
 	width: 400px;
 	height: 200px;
-	background-color: red;
+	background-color: #eb1000;
 }
 
 /* Triangle */
@@ -37,7 +64,7 @@
 	height: 0;
 	border-right: 150px solid transparent;
 	border-left: 150px solid transparent;
-	border-bottom: 150px solid yellow;
+	border-bottom: 150px solid #feee02;
 }
 
 /* Circle */
@@ -45,7 +72,7 @@
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background: blue;
+	background: #1a2fcf;
 }
 
 /* Button */
@@ -144,4 +171,11 @@ overflow: hidden;
 
 .switch__input:checked ~ .switch__yellow:after {
 	background-color: #feee02;
+}
+
+/* Pulldown */
+.pulldown {
+	width: 220px;
+	height: 120px;
+	font-size: 20px;
 }
