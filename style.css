@@ -8,11 +8,10 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-
   /* position */
   position: absolute;
   transform: rotate(10deg);
-  top: 140px;
+  top: 150px;
   left: 80px;
   z-index: 98;
 }
@@ -45,8 +44,8 @@
   /* position */
   position: absolute;
   transform: rotate(-10deg);
-  top: 60px;
-  left: 120px;
+  top: 50px;
+  left: 150px;
   z-index: 3;
 }
 .display__text {

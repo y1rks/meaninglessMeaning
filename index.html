@@ -19,17 +19,25 @@
             <a class="header__link" href="./statement/statement.html">About</a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="https://y1rks.github.io/zeroSumGame/">Info</a>
+            <a class="header__link" href="https://y1rks.github.io/zeroSumGame/"
+              >Info</a
+            >
           </li>
           <li class="header__item">
-            <a class="header__link" href="https://y1rks.github.io/colorfulWorld/">Contact</a>
+            <a
+              class="header__link"
+              href="https://y1rks.github.io/colorfulWorld/"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
 
       <!-- display -->
       <div class="display">
-        <p class="display__text">hoge fuga piyo fooooooooooooooooooooo</p>
+        <p class="display__text" id="display__text">
+          I mean a meaninglessness of meaning
+        </p>
       </div>
 
       <!-- Line -->
@@ -67,40 +75,32 @@
 
       <!-- Pulldown -->
       <select size="4" class="pulldown">
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
       </select>
 
       <!-- Textbox -->
       <form class="form">
-        <input type="text" name="name" size="15" class="textbox" />
-        <!-- <input type="button" value="Send" id="button2" class="button" > -->
+        <input
+          type="text"
+          name="name"
+          size="15"
+          class="textbox"
+          placeholder="  What do you mean?"
+          id="input_message"
+        />
       </form>
 
       <!-- Button -->
-      <button type="button" class="button">Submit</button>
+      <button type="button" class="button" onclick="onButtonClick();">
+        Submit
+      </button>
     </div>
   </body>
 </html>
