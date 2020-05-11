@@ -152,6 +152,15 @@
   border-radius: 30px;
   background-color: #fff;
 }
+.switch__red:before {
+  background-color: #00dbeb;
+}
+.switch__yellow:before {
+  background-color: #0212fe;
+}
+.switch__blue:before {
+  background-color: #cfba1a;
+}
 .switch__content:after {
   content: "";
   display: block;

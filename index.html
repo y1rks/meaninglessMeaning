@@ -44,31 +44,49 @@
       <div class="line"></div>
 
       <!-- Square -->
-      <div class="square"></div>
+      <div class="square" id="square"></div>
 
       <!-- Triangle -->
-      <div class="triangle"></div>
+      <div class="triangle" id="triangle"></div>
 
       <!-- Circle -->
-      <div class="circle"></div>
+      <div class="circle" id="circle"></div>
 
       <!-- Red Switch -->
       <label class="switch__label red_label">
-        <input type="checkbox" name="button" class="switch__input" checked />
+        <input
+          type="checkbox"
+          name="button"
+          class="switch__input"
+          onchange="onRedSwitchChange();"
+          checked
+        />
         <span class="switch__content switch__red"></span>
         <span class="switch__circle"></span>
       </label>
 
       <!-- Yellow Switch -->
       <label class="switch__label yellow_label">
-        <input type="checkbox" name="button" class="switch__input" checked />
+        <input
+          type="checkbox"
+          name="button"
+          class="switch__input"
+          onchange="onYellowSwitchChange();"
+          checked
+        />
         <span class="switch__content switch__yellow"></span>
         <span class="switch__circle"></span>
       </label>
 
       <!-- Blue Switch -->
       <label class="switch__label blue_label">
-        <input type="checkbox" name="button" class="switch__input" checked />
+        <input
+          type="checkbox"
+          name="button"
+          class="switch__input"
+          onchange="onBlueSwitchChange();"
+          checked
+        />
         <span class="switch__content switch__blue"></span>
         <span class="switch__circle"></span>
       </label>
