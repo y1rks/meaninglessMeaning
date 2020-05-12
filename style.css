@@ -8,11 +8,10 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-
   /* position */
   position: absolute;
   transform: rotate(10deg);
-  top: 140px;
+  top: 150px;
   left: 80px;
   z-index: 98;
 }
@@ -45,8 +44,8 @@
   /* position */
   position: absolute;
   transform: rotate(-10deg);
-  top: 60px;
-  left: 120px;
+  top: 50px;
+  left: 150px;
   z-index: 3;
 }
 .display__text {
@@ -152,6 +151,15 @@
   border: 1.5px solid #e5e5ea;
   border-radius: 30px;
   background-color: #fff;
+}
+.switch__red:before {
+  background-color: #00dbeb;
+}
+.switch__yellow:before {
+  background-color: #0212fe;
+}
+.switch__blue:before {
+  background-color: #cfba1a;
 }
 .switch__content:after {
   content: "";

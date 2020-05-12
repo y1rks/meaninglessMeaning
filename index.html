@@ -10,97 +10,132 @@
   <body>
     <div>
       <!-- Header -->
-      <div class="header">
+      <div class="header" id="header">
         <ul class="header__items">
           <li class="header__item">
-            <a class="header__link" href="#">Home</a>
+            <a
+              class="header__link"
+              id="first_link"
+              href="javascript:void(0);"
+              onclick="onClickFirstLink();"
+              >Home</a
+            >
           </li>
           <li class="header__item">
-            <a class="header__link" href="./statement/statement.html">About</a>
+            <a
+              class="header__link"
+              id="second_link"
+              href="./statement/statement.html"
+              >About</a
+            >
           </li>
           <li class="header__item">
-            <a class="header__link" href="https://y1rks.github.io/zeroSumGame/">Info</a>
+            <a
+              class="header__link"
+              id="third_link"
+              href="javascript:void(0);"
+              onclick="onClickThirdLink();"
+              >Info</a
+            >
           </li>
           <li class="header__item">
-            <a class="header__link" href="https://y1rks.github.io/colorfulWorld/">Contact</a>
+            <a
+              class="header__link"
+              id="fourth_link"
+              href="javascript:void(0);"
+              onclick="onClickFourthLink();"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
 
       <!-- display -->
-      <div class="display">
-        <p class="display__text">hoge fuga piyo fooooooooooooooooooooo</p>
+      <div class="display" id="display">
+        <p class="display__text" id="display__text">
+          I mean a meaninglessness of meaning
+        </p>
       </div>
 
       <!-- Line -->
-      <div class="line"></div>
+      <div class="line" id="line"></div>
 
       <!-- Square -->
-      <div class="square"></div>
+      <div class="square" id="square"></div>
 
       <!-- Triangle -->
-      <div class="triangle"></div>
+      <div class="triangle" id="triangle"></div>
 
       <!-- Circle -->
-      <div class="circle"></div>
+      <div class="circle" id="circle"></div>
 
       <!-- Red Switch -->
       <label class="switch__label red_label">
-        <input type="checkbox" name="button" class="switch__input" checked />
+        <input
+          type="checkbox"
+          name="button"
+          class="switch__input"
+          onchange="onRedSwitchChange();"
+          checked
+        />
         <span class="switch__content switch__red"></span>
         <span class="switch__circle"></span>
       </label>
 
       <!-- Yellow Switch -->
       <label class="switch__label yellow_label">
-        <input type="checkbox" name="button" class="switch__input" checked />
+        <input
+          type="checkbox"
+          name="button"
+          class="switch__input"
+          onchange="onYellowSwitchChange();"
+          checked
+        />
         <span class="switch__content switch__yellow"></span>
         <span class="switch__circle"></span>
       </label>
 
       <!-- Blue Switch -->
       <label class="switch__label blue_label">
-        <input type="checkbox" name="button" class="switch__input" checked />
+        <input
+          type="checkbox"
+          name="button"
+          class="switch__input"
+          onchange="onBlueSwitchChange();"
+          checked
+        />
         <span class="switch__content switch__blue"></span>
         <span class="switch__circle"></span>
       </label>
 
       <!-- Pulldown -->
-      <select size="4" class="pulldown">
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
-        <option value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-          >aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option
-        >
+      <select size="4" class="pulldown" id="pulldown">
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
+        <option value="#">This means a meaninglessness of meaning.</option>
       </select>
 
       <!-- Textbox -->
-      <form class="form">
-        <input type="text" name="name" size="15" class="textbox" />
-        <!-- <input type="button" value="Send" id="button2" class="button" > -->
+      <form class="form" id="form">
+        <input
+          type="text"
+          name="name"
+          size="15"
+          class="textbox"
+          placeholder="  What do you mean?"
+          id="input_message"
+        />
       </form>
 
       <!-- Button -->
-      <button type="button" class="button">Submit</button>
+      <button type="button" class="button" onclick="onButtonClick();">
+        Submit
+      </button>
     </div>
   </body>
 </html>
