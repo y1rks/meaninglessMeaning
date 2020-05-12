@@ -10,23 +10,40 @@
   <body>
     <div>
       <!-- Header -->
-      <div class="header">
+      <div class="header" id="header">
         <ul class="header__items">
           <li class="header__item">
-            <a class="header__link" href="#">Home</a>
+            <a
+              class="header__link"
+              id="first_link"
+              href="javascript:void(0);"
+              onclick="onClickFirstLink();"
+              >Home</a
+            >
           </li>
           <li class="header__item">
-            <a class="header__link" href="./statement/statement.html">About</a>
+            <a
+              class="header__link"
+              id="second_link"
+              href="./statement/statement.html"
+              >About</a
+            >
           </li>
           <li class="header__item">
-            <a class="header__link" href="https://y1rks.github.io/zeroSumGame/"
+            <a
+              class="header__link"
+              id="third_link"
+              href="javascript:void(0);"
+              onclick="onClickThirdLink();"
               >Info</a
             >
           </li>
           <li class="header__item">
             <a
               class="header__link"
-              href="https://y1rks.github.io/colorfulWorld/"
+              id="fourth_link"
+              href="javascript:void(0);"
+              onclick="onClickFourthLink();"
               >Contact</a
             >
           </li>
@@ -34,14 +51,14 @@
       </div>
 
       <!-- display -->
-      <div class="display">
+      <div class="display" id="display">
         <p class="display__text" id="display__text">
           I mean a meaninglessness of meaning
         </p>
       </div>
 
       <!-- Line -->
-      <div class="line"></div>
+      <div class="line" id="line"></div>
 
       <!-- Square -->
       <div class="square" id="square"></div>
@@ -92,7 +109,7 @@
       </label>
 
       <!-- Pulldown -->
-      <select size="4" class="pulldown">
+      <select size="4" class="pulldown" id="pulldown">
         <option value="#">This means a meaninglessness of meaning.</option>
         <option value="#">This means a meaninglessness of meaning.</option>
         <option value="#">This means a meaninglessness of meaning.</option>
@@ -104,7 +121,7 @@
       </select>
 
       <!-- Textbox -->
-      <form class="form">
+      <form class="form" id="form">
         <input
           type="text"
           name="name"
